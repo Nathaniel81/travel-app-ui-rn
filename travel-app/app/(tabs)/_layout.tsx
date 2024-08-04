@@ -7,7 +7,14 @@ export default function _layout() {
   return (
     <Tabs
       screenOptions={{
+        tabBarStyle: {
+          backgroundColor: Colors.bgColor,
+          borderTopWidth: 0,
+          padding: 0
+        },
         tabBarShowLabel: false,
+        tabBarActiveTintColor: 'black',
+        tabBarInactiveTintColor: '#999'
       }}
     >
       <Tabs.Screen
