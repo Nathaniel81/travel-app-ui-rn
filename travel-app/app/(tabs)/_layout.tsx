@@ -7,10 +7,7 @@ export default function _layout() {
   return (
     <Tabs
       screenOptions={{
-        tabBarLabelPosition: 'below-icon',
-        tabBarLabelStyle: {
-          fontSize: 12,
-        },
+        tabBarShowLabel: false,
       }}
     >
       <Tabs.Screen
@@ -19,7 +16,6 @@ export default function _layout() {
           tabBarIcon: ({ color }) => (
             <Ionicons name="compass" size={28} color={color} />
           ),
-          tabBarLabel: 'Home',
         }}
       />
       <Tabs.Screen
@@ -28,7 +24,6 @@ export default function _layout() {
           tabBarIcon: ({ color }) => (
             <MaterialIcons name="space-dashboard" size={28} color={color} />
           ),
-          tabBarLabel: 'Category',
         }}
       />
       <Tabs.Screen
@@ -47,7 +42,6 @@ export default function _layout() {
               <Ionicons name="search-outline" size={24} color={Colors.white} />
             </View>
           ),
-          tabBarLabel: 'Search',
         }}
       />
       <Tabs.Screen
@@ -56,7 +50,6 @@ export default function _layout() {
           tabBarIcon: ({ color }) => (
             <Ionicons name="bookmark" size={28} color={color} />
           ),
-          tabBarLabel: 'Bookmarks',
         }}
       />
       <Tabs.Screen
@@ -65,7 +58,6 @@ export default function _layout() {
           tabBarIcon: ({ color }) => (
             <FontAwesome name="user" size={28} color={color} />
           ),
-          tabBarLabel: 'Profile',
         }}
       />
     </Tabs>
