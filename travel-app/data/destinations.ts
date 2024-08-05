@@ -1,4 +1,4 @@
-[
+export const listingData = [
 	{
 	  "id": "1",
 	  "name": "Tropical Paradise Resort",

@@ -1,4 +1,4 @@
-[
+export const groupsData = [
 	{
 	  "id": "1",
 	  "name": "Holiday Travel Agency",
